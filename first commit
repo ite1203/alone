@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
@@ -144,7 +143,6 @@
     </select>
 
     <div id="recipeContainer">
-      <!-- 간장버터 계란밥 -->
       <div id="recipe-egg" class="recipe-content hidden">
         <div class="recipe-header">
           <h2>간장버터 계란밥</h2>
@@ -153,22 +151,21 @@
         </div>
         <p><strong>재료 (1인분):</strong></p>
         <ul>
-          <li><input type="checkbox" id="egg-ing1" /><label for="egg-ing1">밥 1공기</label></li>
-          <li><input type="checkbox" id="egg-ing2" /><label for="egg-ing2">달걀 1개</label></li>
-          <li><input type="checkbox" id="egg-ing3" /><label for="egg-ing3">간장 1큰술</label></li>
-          <li><input type="checkbox" id="egg-ing4" /><label for="egg-ing4">버터 1작은술</label></li>
-          <li><input type="checkbox" id="egg-ing5" /><label for="egg-ing5">참기름 약간</label></li>
-          <li><input type="checkbox" id="egg-ing6" /><label for="egg-ing6">김가루, 깨소금 (선택사항)</label></li>
+          <li>밥 1공기</li>
+          <li>달걀 1개</li>
+          <li>간장 1큰술</li>
+          <li>버터 1작은술</li>
+          <li>참기름 약간</li>
+          <li>김가루, 깨소금 (선택사항)</li>
         </ul>
         <p><strong>조리 순서:</strong></p>
         <ol>
-          <li><input type="checkbox" id="egg-step1" /><label for="egg-step1">달걀을 프라이팬에 반숙으로 부쳐둡니다.</label></li>
-          <li><input type="checkbox" id="egg-step2" /><label for="egg-step2">뜨거운 밥 위에 버터, 간장을 넣고 비빕니다.</label></li>
-          <li><input type="checkbox" id="egg-step3" /><label for="egg-step3">반숙 달걀을 밥 위에 올리고 김가루와 깨소금을 뿌려 마무리합니다.</label></li>
+          <li>달걀을 프라이팬에 반숙으로 부쳐둡니다.</li>
+          <li>뜨거운 밥 위에 버터, 간장을 넣고 비빕니다.</li>
+          <li>반숙 달걀을 밥 위에 올리고 김가루와 깨소금을 뿌려 마무리합니다.</li>
         </ol>
       </div>
 
-      <!-- 참치마요 덮밥 -->
       <div id="recipe-tuna" class="recipe-content hidden">
         <div class="recipe-header">
           <h2>참치마요 덮밥</h2>
@@ -177,21 +174,20 @@
         </div>
         <p><strong>재료 (1인분):</strong></p>
         <ul>
-          <li><input type="checkbox" id="tuna-ing1" /><label for="tuna-ing1">밥 1공기</label></li>
-          <li><input type="checkbox" id="tuna-ing2" /><label for="tuna-ing2">참치캔 1개</label></li>
-          <li><input type="checkbox" id="tuna-ing3" /><label for="tuna-ing3">마요네즈 1.5큰술</label></li>
-          <li><input type="checkbox" id="tuna-ing4" /><label for="tuna-ing4">간장 1작은술</label></li>
-          <li><input type="checkbox" id="tuna-ing5" /><label for="tuna-ing5">쪽파, 김가루 (선택)</label></li>
+          <li>밥 1공기</li>
+          <li>참치캔 1개</li>
+          <li>마요네즈 1.5큰술</li>
+          <li>간장 1작은술</li>
+          <li>쪽파, 김가루 (선택)</li>
         </ul>
         <p><strong>조리 순서:</strong></p>
         <ol>
-          <li><input type="checkbox" id="tuna-step1" /><label for="tuna-step1">참치 기름을 빼고 마요네즈, 간장을 섞어줍니다.</label></li>
-          <li><input type="checkbox" id="tuna-step2" /><label for="tuna-step2">밥 위에 섞은 참치를 얹습니다.</label></li>
-          <li><input type="checkbox" id="tuna-step3" /><label for="tuna-step3">쪽파나 김가루로 장식해 마무리합니다.</label></li>
+          <li>참치 기름을 빼고 마요네즈, 간장을 섞어줍니다.</li>
+          <li>밥 위에 섞은 참치를 얹습니다.</li>
+          <li>쪽파나 김가루로 장식해 마무리합니다.</li>
         </ol>
       </div>
 
-      <!-- 김치볶음밥 -->
       <div id="recipe-kimchi" class="recipe-content hidden">
         <div class="recipe-header">
           <h2>김치볶음밥</h2>
@@ -200,21 +196,20 @@
         </div>
         <p><strong>재료 (1인분):</strong></p>
         <ul>
-          <li><input type="checkbox" id="kimchi-ing1" /><label for="kimchi-ing1">김치 1/2컵</label></li>
-          <li><input type="checkbox" id="kimchi-ing2" /><label for="kimchi-ing2">밥 1공기</label></li>
-          <li><input type="checkbox" id="kimchi-ing3" /><label for="kimchi-ing3">대파 약간</label></li>
-          <li><input type="checkbox" id="kimchi-ing4" /><label for="kimchi-ing4">참기름 1작은술</label></li>
-          <li><input type="checkbox" id="kimchi-ing5" /><label for="kimchi-ing5">식용유, 깨소금</label></li>
+          <li>김치 1/2컵</li>
+          <li>밥 1공기</li>
+          <li>대파 약간</li>
+          <li>참기름 1작은술</li>
+          <li>식용유, 깨소금</li>
         </ul>
         <p><strong>조리 순서:</strong></p>
         <ol>
-          <li><input type="checkbox" id="kimchi-step1" /><label for="kimchi-step1">기름 두른 팬에 대파를 볶아 파기름을 만듭니다.</label></li>
-          <li><input type="checkbox" id="kimchi-step2" /><label for="kimchi-step2">김치를 넣고 볶다가 밥을 넣고 같이 볶습니다.</label></li>
-          <li><input type="checkbox" id="kimchi-step3" /><label for="kimchi-step3">참기름과 깨소금으로 마무리합니다.</label></li>
+          <li>기름 두른 팬에 대파를 볶아 파기름을 만듭니다.</li>
+          <li>김치를 넣고 볶다가 밥을 넣고 같이 볶습니다.</li>
+          <li>참기름과 깨소금으로 마무리합니다.</li>
         </ol>
       </div>
 
-      <!-- 버섯 간장볶음 -->
       <div id="recipe-mushroom" class="recipe-content hidden">
         <div class="recipe-header">
           <h2>버섯 간장볶음</h2>
@@ -223,23 +218,153 @@
         </div>
         <p><strong>재료 (1인분):</strong></p>
         <ul>
-          <li><input type="checkbox" id="mushroom-ing1" /><label for="mushroom-ing1">버섯 1컵 (표고, 새송이 등)</label></li>
-          <li><input type="checkbox" id="mushroom-ing2" /><label for="mushroom-ing2">간장 1큰술</label></li>
-          <li><input type="checkbox" id="mushroom-ing3" /><label for="mushroom-ing3">설탕 1작은술</label></li>
-          <li><input type="checkbox" id="mushroom-ing4" /><label for="mushroom-ing4">다진 마늘 1/2작은술</label></li>
-          <li><input type="checkbox" id="mushroom-ing5" /><label for="mushroom-ing5">식용유 1큰술</label></li>
-          <li><input type="checkbox" id="mushroom-ing6" /><label for="mushroom-ing6">참기름, 깨소금 약간</label></li>
+          <li>버섯 1컵 (표고, 새송이 등)</li>
+          <li>간장 1큰술</li>
+          <li>설탕 1작은술</li>
+          <li>다진 마늘 1/2작은술</li>
+          <li>식용유 1큰술</li>
+          <li>참기름, 깨소금 약간</li>
         </ul>
         <p><strong>조리 순서:</strong></p>
         <ol>
-          <li><input type="checkbox" id="mushroom-step1" /><label for="mushroom-step1">팬에 식용유를 두르고 다진 마늘을 볶습니다.</label></li>
-          <li><input type="checkbox" id="mushroom-step2" /><label for="mushroom-step2">버섯을 넣고 숨이 죽을 때까지 볶습니다.</label></li>
-          <li><input type="checkbox" id="mushroom-step3" /><label for="mushroom-step3">간장, 설탕을 넣고 볶다가 참기름과 깨소금을 넣고 마무리합니다.</label></li>
+          <li>팬에 식용유를 두르고 다진 마늘을 볶습니다.</li>
+          <li>버섯을 넣고 숨이 죽을 때까지 볶습니다.</li>
+          <li>간장과 설탕을 넣고 간이 배도록 볶습니다.</li>
+          <li>불을 끄고 참기름과 깨소금을 넣어 마무리합니다.</li>
         </ol>
       </div>
 
-      <!-- 나머지 레시피도 필요하시면 추가 가능합니다 -->
-    </div>
+      <div id="recipe-bacon" class="recipe-content hidden">
+  <div class="recipe-header">
+    <h2>베이컨 브로콜리 볶음</h2>
+    <p><strong>소요시간:</strong> 약 15분</p>
+    <p><strong>요리법:</strong> 볶음</p>
+  </div>
+  <p><strong>재료 (1~2인분):</strong></p>
+  <ul>
+    <li>베이컨 3줄</li>
+    <li>브로콜리 1/2송이</li>
+    <li>마늘 2쪽</li>
+    <li>소금, 후추 약간</li>
+    <li>식용유 1큰술</li>
+  </ul>
+  <p><strong>조리 순서:</strong></p>
+  <ol>
+    <li>브로콜리는 소금물에 데친 후 찬물에 헹궈 물기를 뺍니다.</li>
+    <li>마늘은 슬라이스, 베이컨은 한 입 크기로 썰어둡니다.</li>
+    <li>팬에 식용유를 두르고 마늘, 베이컨을 볶습니다.</li>
+    <li>브로콜리를 넣고 소금, 후추로 간하여 볶습니다.</li>
+  </ol>
+</div>
+
+<div id="recipe-cabbage" class="recipe-content hidden">
+  <div class="recipe-header">
+    <h2>양배추 계란볶음</h2>
+    <p><strong>소요시간:</strong> 약 10분</p>
+    <p><strong>요리법:</strong> 볶음</p>
+  </div>
+  <p><strong>재료 (1인분):</strong></p>
+  <ul>
+    <li>양배추 1컵 (채 썬 것)</li>
+    <li>달걀 2개</li>
+    <li>소금, 후추 약간</li>
+    <li>식용유 1큰술</li>
+  </ul>
+  <p><strong>조리 순서:</strong></p>
+  <ol>
+    <li>팬에 기름을 두르고 양배추를 볶아 숨이 죽을 때까지 익힙니다.</li>
+    <li>계란을 넣고 스크램블하듯 볶습니다.</li>
+    <li>소금과 후추로 간하여 마무리합니다.</li>
+  </ol>
+</div>
+
+<div id="recipe-tofu" class="recipe-content hidden">
+  <div class="recipe-header">
+    <h2>두부 스크램블</h2>
+    <p><strong>소요시간:</strong> 약 10분</p>
+    <p><strong>요리법:</strong> 볶음</p>
+  </div>
+  <p><strong>재료 (1인분):</strong></p>
+  <ul>
+    <li>부드러운 두부 1/2모</li>
+    <li>양파 1/4개</li>
+    <li>당근, 대파 약간</li>
+    <li>간장 1작은술</li>
+    <li>참기름, 후추 약간</li>
+  </ul>
+  <p><strong>조리 순서:</strong></p>
+  <ol>
+    <li>두부는 물기를 빼고 으깨 준비합니다.</li>
+    <li>팬에 기름을 두르고 채소를 볶습니다.</li>
+    <li>두부를 넣고 함께 볶으며 간장으로 간합니다.</li>
+    <li>참기름과 후추로 마무리합니다.</li>
+  </ol>
+</div>
+
+<div id="recipe-omelet" class="recipe-content hidden">
+  <div class="recipe-header">
+    <h2>떡볶이 오므라이스</h2>
+    <p><strong>소요시간:</strong> 약 20분</p>
+    <p><strong>요리법:</strong> 볶음 + 달걀 감싸기</p>
+  </div>
+  <p><strong>재료 (1인분):</strong></p>
+  <ul>
+    <li>밥 1공기</li>
+    <li>떡볶이 소스 2큰술</li>
+    <li>양파 1/4개, 당근 약간</li>
+    <li>달걀 2개</li>
+    <li>식용유, 소금 약간</li>
+  </ul>
+  <p><strong>조리 순서:</strong></p>
+  <ol>
+    <li>팬에 채소를 볶고 밥과 떡볶이 소스를 넣어 볶습니다.</li>
+    <li>다른 팬에 달걀을 풀어 얇게 지단을 부칩니다.</li>
+    <li>볶은 밥을 달걀 위에 얹고 감싸 접시에 담습니다.</li>
+  </ol>
+</div>
+
+<div id="recipe-spam" class="recipe-content hidden">
+  <div class="recipe-header">
+    <h2>스팸 야채볶음</h2>
+    <p><strong>소요시간:</strong> 약 15분</p>
+    <p><strong>요리법:</strong> 볶음</p>
+  </div>
+  <p><strong>재료 (1~2인분):</strong></p>
+  <ul>
+    <li>스팸 1/2캔</li>
+    <li>양파 1/4개</li>
+    <li>피망 또는 파프리카 약간</li>
+    <li>식용유 약간</li>
+    <li>후추 약간</li>
+  </ul>
+  <p><strong>조리 순서:</strong></p>
+  <ol>
+    <li>스팸은 잘게 썰고, 채소는 먹기 좋게 자릅니다.</li>
+    <li>팬에 스팸을 먼저 볶다가 기름이 나오면 채소를 넣고 볶습니다.</li>
+    <li>후추로 마무리합니다.</li>
+  </ol>
+</div>
+
+<div id="recipe-dumpling" class="recipe-content hidden">
+  <div class="recipe-header">
+    <h2>만두채소볶음</h2>
+    <p><strong>소요시간:</strong> 약 15분</p>
+    <p><strong>요리법:</strong> 볶음</p>
+  </div>
+  <p><strong>재료 (1~2인분):</strong></p>
+  <ul>
+    <li>만두 4~5개</li>
+    <li>양배추, 당근, 양파 등 채소</li>
+    <li>간장 1큰술</li>
+    <li>식용유, 참기름 약간</li>
+  </ul>
+  <p><strong>조리 순서:</strong></p>
+  <ol>
+    <li>만두는 기름에 살짝 구워둡니다.</li>
+    <li>채소를 볶다가 구운 만두를 넣고 간장으로 간합니다.</li>
+    <li>참기름으로 마무리합니다.</li>
+  </ol>
+</div>
 
     <div id="timerSection" class="hidden">
       <p>타이머</p>
